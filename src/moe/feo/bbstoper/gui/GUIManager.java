@@ -49,8 +49,8 @@ public class GUIManager implements Listener {
             }
             if (event.getRawSlot() == 13) {
                 player.closeInventory();
-//                String[] args = {"reward"};
-//                CLI.getInstance().onCommand(player, null, null, args);
+                String[] args = {"reward"};
+                CLI.getInstance().onCommand(player, null, null, args);
             }
             if (event.getRawSlot() == 22) {// 获取链接
                 player.closeInventory();
